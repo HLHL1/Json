@@ -60,8 +60,7 @@ public class LeptType {
                     case 't':sb.append('\t');break;
                     case 'u':
                         String hex = value.substring(i+1, i+5);
-                        //----------将16进制数转化成十进制，然后又强转成char类型-----我感觉有问题，char一个字节，还有码点的转换等
-                        //----------而且也没有判断这个16进制合不合法------高低代理没有考虑
+            
                         sb.append((char)Integer.parseInt(hex, 16));
                         i+=4;
                         break;
