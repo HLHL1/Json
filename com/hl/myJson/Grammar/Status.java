@@ -28,7 +28,6 @@ public class Status {
 
     //状态机的状态转换矩阵
     public static final Integer[][] STM = {
-            //为什么没有end状态
             /*INPUT——STR NUM DESC SPLIT ARRS OBJS ARRE OBJE FALSE TRUE NULL BGN*/
             /*BGN*/  {VAL,VAL,ERR,ERR,ARRBV,OBJBK,ERR,ERR,VAL,VAL,VAL,BGN},
             /*ARRBV*/{ARRAV,ARRAV,ERR,ERR,ARRBV,OBJBK,VAL,ERR,ARRAV,ARRAV,ARRAV,ERR},
