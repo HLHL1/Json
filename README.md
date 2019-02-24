@@ -6,12 +6,13 @@
  - 实现词法解析Lexical类
  -  实现语法解析Grammar类
  -  能够解析 null、true、false、数字(double)、字符串、数组、对象
-## 实现
+ 
+## 开发技术
 
-开发技术：Java
-   使用环境：使用IDEA编写，Maven工具管理
-   项目功能：
+ 
+## 实现过程
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190224200329237.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0hMX0hMSEw=,size_16,color_FFFFFF,t_70)
+
 ## 测试结果
 语法解析测试用例：
 
@@ -62,8 +63,10 @@
 ```
 
 语法解析测试结果
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190224200441686.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0hMX0hMSEw=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190224200455912.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0hMX0hMSEw=,size_16,color_FFFFFF,t_70)
+
 词法解析测试用例：
 
 ```
@@ -73,5 +76,11 @@
 词法解析测试结果：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190224200508362.PNG)
+
+## 收获
+ - 熟悉了Json数据交换格式
+ - 学会了简单将反射运用到代码中，是代码结构清晰简洁
+ - 学会了简单的单元测试的编写
+ - 提高了代码能力
 
 想了解更多[点这里~](https://blog.csdn.net/HL_HLHL/article/details/87484181)
