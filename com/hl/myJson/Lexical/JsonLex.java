@@ -136,7 +136,8 @@ public class JsonLex {
             while (isdigit(ch)) ch = nextChar();
         }
         checkEnd();
-        return str.substring(start, revertChar());
+        int end= revertChar();
+        return str.substring(start,end);
     }
 
     private boolean isLetterUnderline(char ch){
